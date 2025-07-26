@@ -126,7 +126,7 @@ const Contact = () => {
                 {
                   icon: MapPin,
                   title: 'Visit Us',
-                  info: 'Mumbai, India',
+                  info: 'Annapurna Road, Indore, India',
                   description: 'Experience healing in our peaceful and sacred center',
                   action: 'Get Directions'
                 }
