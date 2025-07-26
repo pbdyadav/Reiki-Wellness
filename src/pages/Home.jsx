@@ -11,7 +11,7 @@ const Home = () => {
     <>
       <Helmet>
         <title>Reiki Wellness - Spiritual Healing & Energy Therapy by Master Nitin Agrawal</title>
-        <meta name="description" content="Experience divine healing with Reiki Master Nitin Agrawal. 24+ years of spiritual healing, energy therapy, chakra balancing, and meditation guidance in Mumbai, India." />
+        <meta name="description" content="Experience divine healing with Reiki Master Nitin Agrawal. 24+ years of spiritual healing, energy therapy, chakra balancing, and meditation guidance in Indore, India." />
       </Helmet>
 
       {/* Hero Section */}
