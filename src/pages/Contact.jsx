@@ -292,7 +292,11 @@ const Contact = () => {
                         <p className="font-medium text-gray-800">Address</p>
                         <p className="text-gray-600">
                           Reiki Wellness Center<br />
+<<<<<<< HEAD
                           Annapurna Road, Indore, Madhypradesh<br />
+=======
+                          Annapurna Road, Indore, Madhypradesh, Maharashtra<br />
+>>>>>>> bc18912a (Update address from.Mumbai to Indore on Contact page)
                           India
                         </p>
                       </div>
