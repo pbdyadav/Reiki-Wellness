@@ -21,7 +21,7 @@ const OnlineStore = () => {
       name: 'In-Person Reiki Healing',
       duration: '60 minutes',
       price: '₹3,500',
-      description: 'Complete Reiki healing session at our peaceful center in Mumbai',
+      description: 'Complete Reiki healing session at our peaceful center in Indore',
       includes: [
         'Energy assessment and consultation',
         'Full body Reiki treatment',
