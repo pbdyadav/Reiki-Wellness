@@ -41,8 +41,8 @@ const Contact = () => {
   return (
     <>
       <Helmet>
-        <title>Contact Reiki Wellness - Get in Touch with Master Nitin Agrawal | Mumbai</title>
-        <meta name="description" content="Contact Reiki Wellness for healing sessions, spiritual guidance, and energy therapy. Reach Master Nitin Agrawal via phone, email, WhatsApp, or visit our Mumbai center." />
+        <title>Contact Reiki Wellness - Get in Touch with Master Nitin Agrawal | Annapurna Road, Indore</title>
+        <meta name="description" content="Contact Reiki Wellness for healing sessions, spiritual guidance, and energy therapy. Reach Master Nitin Agrawal via phone, email, WhatsApp, or visit our Annapurna Road, Indore center." />
       </Helmet>
 
       <div className="min-h-screen spiritual-gradient mandala-bg">
@@ -292,7 +292,7 @@ const Contact = () => {
                         <p className="font-medium text-gray-800">Address</p>
                         <p className="text-gray-600">
                           Reiki Wellness Center<br />
-                          Mumbai, Maharashtra<br />
+                          Annapurna Road, Indore, Madhypradesh<br />
                           India
                         </p>
                       </div>
@@ -332,7 +332,7 @@ const Contact = () => {
                 <div className="floating">
                   <img  
                     className="w-full rounded-xl shadow-lg" 
-                    alt="Peaceful Reiki Wellness healing center in Mumbai"
+                    alt="Peaceful Reiki Wellness healing center in Indore"
                    src="https://images.unsplash.com/photo-1548618699-7e3e8d7780b4" />
                 </div>
               </motion.div>
