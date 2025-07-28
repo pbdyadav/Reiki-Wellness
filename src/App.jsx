@@ -29,11 +29,11 @@ function App() {
             <Route path="/how-reiki-works" element={<HowReikiWorks />} />
             <Route path="/about-healer" element={<AboutHealer />} />
             <Route path="/guru-parampara" element={<GuruParampara />} />
-            <Route path="/reiki-tools" element={<ReikiTools />} />
+           {/* <Route path="/reiki-tools" element={<ReikiTools />} /> */}
             <Route path="/chakras" element={<ChakrasExplained />} />
             <Route path="/aura-cleansing" element={<AuraCleansing />} />
             <Route path="/meditation" element={<Meditation />} />
-            <Route path="/store" element={<OnlineStore />} />
+           {/* <Route path="/store" element={<OnlineStore />} /> */}
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
