@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { Toaster } from '@/components/ui/toaster';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import ScrollToTop from '@/components/ScrollToTop'; // <-- add this
 import Home from '@/pages/Home.jsx';
 import WhatIsReiki from '@/pages/WhatIsReiki.jsx';
 import HowReikiWorks from '@/pages/HowReikiWorks.jsx';
@@ -18,6 +19,7 @@ import AuraCleansing from '@/pages/AuraCleansing.jsx';
 function App() {
   return (
     <Router>
+      <ScrollToTop /> {/* <-- insert here */}
       <div className="min-h-screen flex flex-col">
         <Navbar />
         <main className="flex-1">
