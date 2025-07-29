@@ -23,19 +23,19 @@ function App() {
       <div className="min-h-screen flex flex-col">
         <Navbar />
         <main className="flex-1">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/what-is-reiki" element={<WhatIsReiki />} />
-            <Route path="/how-reiki-works" element={<HowReikiWorks />} />
-            <Route path="/about-healer" element={<AboutHealer />} />
-            <Route path="/guru-parampara" element={<GuruParampara />} />
-           {/* <Route path="/reiki-tools" element={<ReikiTools />} /> */}
-            <Route path="/chakras" element={<ChakrasExplained />} />
-            <Route path="/aura-cleansing" element={<AuraCleansing />} />
-            <Route path="/meditation" element={<Meditation />} />
-           {/* <Route path="/store" element={<OnlineStore />} /> */}
-            <Route path="/contact" element={<Contact />} />
-          </Routes>
+        <Routes>
+  <Route path="/" element={<Home />} />
+  <Route path="/what-is-reiki" element={<WhatIsReiki />} />
+  <Route path="/how-reiki-works" element={<HowReikiWorks />} />
+  <Route path="/about-healer" element={<AboutHealer />} />
+  <Route path="/guru-parampara" element={<GuruParampara />} />
+  {/* <Route path="/reiki-tools" element={<ReikiTools />} /> */}
+  <Route path="/chakras" element={<ChakrasExplained />} />
+  <Route path="/aura-cleansing" element={<AuraCleansing />} />
+  <Route path="/meditation" element={<Meditation />} />
+  {/* <Route path="/store" element={<OnlineStore />} /> */}
+  <Route path="/contact" element={<Contact />} />
+</Routes>
         </main>
         <Footer />
         <Toaster />
