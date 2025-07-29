@@ -70,6 +70,15 @@ const GuruParampara = () => {
       image: 'Swami Shri Narayan Tirth Devji maharaj.png',
     },
     {
+      name: 'Swami Shankar Purushottam Tirth Maharaj',
+      title: 'Shaktipat Yogi & Spiritual Mystic',
+      period: '1890 – Unknown',
+      description:
+        'Born as Rohinikumar (later Atmanandprakash Brahmachari) in 1890 in Laxmipur, Tripura, he renounced worldly life and received Shaktipat initiation from Swami Narayandev Tirth Maharaj in Madaripur. After years of dedicated service, he was sent to Jagannathpuri to receive sanyas from Shankaracharya Bharatikrushnatirth and was renamed Swami Shankar Purushottam Tirth.',
+      teachings: 'Propagation of the Shaktipat tradition, Exemplary celibacy and discipline, Spiritual guidance under Sudder and solitary asceticism',
+      image: 'Shri Shankar Purushottam.png',
+    },
+    {
       name: 'Master Nitin Agrawal',
       title: 'Current Reiki Practitioners',
       period: '(****-Present',
