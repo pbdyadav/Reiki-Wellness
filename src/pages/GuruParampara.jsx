@@ -1,21 +1,18 @@
 import React, { useState } from 'react';
 import { Helmet } from 'react-helmet';
 import { motion } from 'framer-motion';
-import { Crown, Heart, Star } from 'lucide-react';
+import { Crown, Star, Heart } from 'lucide-react'; // example icons
 
 const GuruParampara = () => {
-  const [showFullDescription, setShowFullDescription] = useState(false);
+  const [showFullDescription, setShowFullDescription] = useState(false); // <-- Add this here
 
   const gurus = [
     {
       name: 'Dr. Mikao Usui',
       title: 'Founder of Reiki',
-      period: '1865-1926',
-      description:
-        'The enlightened master who received the gift of Reiki during his spiritual retreat on Mount Kurama.',
-      longDescription: `Early Life and Foundations
-
-      Dr. Mikao Usui was born on August 15, 1865, in the small village of Taniai, located in the Gifu Prefecture of Japan. He came from a samurai heritage, a lineage that valued discipline, education, and spiritual insight. Raised in a Tendai Buddhist household, Usui was exposed to both religious and scholarly pursuits from an early age. His family followed a balanced blend of martial training and intellectual development, which laid the groundwork for his multifaceted journey.
+      period: '1865–1926',
+      description: `Dr. Mikao Usui\nFounder of Reiki\n\n1865–1926\n\nThe enlightened master who received the gift of Reiki during his spiritual retreat on Mount Kurama. His dedication to healing and spiritual development laid the foundation for all Reiki practice.`,
+      longDescription: `Dr. Mikao Usui was born on August 15, 1865, in the small village of Taniai, located in the Gifu Prefecture of Japan. He came from a samurai heritage, a lineage that valued discipline, education, and spiritual insight. Raised in a Tendai Buddhist household, Usui was exposed to both religious and scholarly pursuits from an early age. His family followed a balanced blend of martial training and intellectual development, which laid the groundwork for his multifaceted journey.
       
       Throughout his youth and adulthood, Usui pursued studies in a diverse range of disciplines. These included medicine, psychology, religion, energy practices, and ancient healing arts. He was particularly drawn to the study of sacred texts from both Eastern and Western traditions, including Buddhist sutras and Christian scriptures. This wide-ranging curiosity was not merely academic but fueled by a deeper quest for spiritual truth and healing methods that could uplift humanity.
       
@@ -76,10 +73,8 @@ const GuruParampara = () => {
       Dr. Usui's legacy is not limited to the healing of the body. He introduced a path that empowers individuals to reconnect with their innate potential for balance and harmony, both within and with others.
       
       His life story reminds us that healing is more than technique—it is an offering of compassion, discipline, and alignment with universal truth.`, 
-      teachings:
-        'The Five Reiki Principles, Traditional hand positions, Spiritual development through service',
+      teachings: 'The Five Reiki Principles, Traditional hand positions, Spiritual development through service',
       image: 'Dr. Mikao Usui.png',
-<<<<<<< HEAD
     },
     {
       name: 'Dr. Chujiro Hayashi',
