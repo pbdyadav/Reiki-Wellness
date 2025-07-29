@@ -60,6 +60,15 @@ const GuruParampara = () => {
       teachings: 'Revival of Shaktipat Yoga, Initiated Swami Narayan Dev Tirth, Solitary spiritual discipline',
       image: 'Swami Gangadhar Tirth.png',
     },
+     {
+      name: 'Swami Narayan Tirth Devji Maharaj',
+      title: 'Shaktipat Master & Siddha Yogi',
+      period: '1915 – Unknown',
+      description:
+        'Born as Kalipada Acharya in Varajuri, Bihar, he renounced worldly life in 1939 and met his guru, Swami Shankar Purushottam Tirtha, in Puri. After receiving diksha and later sanyas, he led Siddhayogashram and Shankar Math with divine grace.',
+      teachings: 'Leadership of Siddhayogashram, Preservation of Shaktipat lineage, Silent spiritual transmission',
+      image: 'Swami Gangadhar Tirth.png',
+    },
     {
       name: 'Master Nitin Agrawal',
       title: 'Current Reiki Practitioners',
