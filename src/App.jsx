@@ -28,7 +28,7 @@ function App() {
             <Route path="/what-is-reiki" element={<WhatIsReiki />} />
             <Route path="/how-reiki-works" element={<HowReikiWorks />} />
             <Route path="/about-healer" element={<AboutHealer />} />
-            {/* <Route path="/guru-parampara" element={<GuruParampara />} /> */}
+            <Route path="/guru-parampara" element={<GuruParampara />} />
            {/* <Route path="/reiki-tools" element={<ReikiTools />} /> */}
             <Route path="/chakras" element={<ChakrasExplained />} />
             <Route path="/aura-cleansing" element={<AuraCleansing />} />
