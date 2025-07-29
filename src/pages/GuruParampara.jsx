@@ -51,6 +51,15 @@ const GuruParampara = () => {
       teachings: 'Karuna Reiki system, Reiki research, Modern Reiki techniques',
       image: 'William Lee Rand.png',
     },
+     {
+      name: 'Swami Gangadhar Tirth',
+      title: 'Shaktipat Yogi & Spiritual Revivalist',
+      period: '1870 – Unknown',
+      description:
+        'A reclusive saint from Mathura who revived the ancient Shaktipat tradition in the late 19th century. Known for his deep meditation, renunciation, and guidance to select disciples.',
+      teachings: 'Revival of Shaktipat Yoga, Initiated Swami Narayan Dev Tirth, Solitary spiritual discipline',
+      image: 'Swami Gangadhar Tirth.png',
+    },
     {
       name: 'Master Nitin Agrawal',
       title: 'Current Reiki Practitioners',
