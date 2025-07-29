@@ -67,7 +67,7 @@ const GuruParampara = () => {
       description:
         'Born as Kalipada Acharya in Varajuri, Bihar, he renounced worldly life in 1939 and met his guru, Swami Shankar Purushottam Tirtha, in Puri. After receiving diksha and later sanyas, he led Siddhayogashram and Shankar Math with divine grace.',
       teachings: 'Leadership of Siddhayogashram, Preservation of Shaktipat lineage, Silent spiritual transmission',
-      image: 'Swami Gangadhar Tirth.png',
+      image: 'Swami Shri Narayan Tirth Devji maharaj.png',
     },
     {
       name: 'Master Nitin Agrawal',
