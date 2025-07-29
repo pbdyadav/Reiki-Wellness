@@ -263,10 +263,11 @@ const GuruParampara = () => {
                           {guru.name === 'Dr. Mikao Usui' && !showFullDescription
                             ? guru.description
                             : guru.name === 'Dr. Mikao Usui'
-                            ? guru.description + ' ' + guru.longDescription
+                            ? guru.description + '\n\n' + guru.longDescription
                             : guru.description}
                         </p>
   
+                        {/* ✅ PASTE THIS BUTTON RIGHT HERE */}
                         {guru.name === 'Dr. Mikao Usui' && (
                           <button
                             onClick={() => setShowFullDescription(!showFullDescription)}
@@ -276,6 +277,12 @@ const GuruParampara = () => {
                           </button>
                         )}
   
+                        {/* Optional: teachings */}
+    <p className="text-gray-600 mb-2">
+      <strong>Key Teachings & Contributions:</strong> {guru.teachings}
+    </p>
+  </motion.div>
+))}
                         <div className="border-t border-gray-200 pt-6">
                           <h4 className="font-semibold text-gray-800 mb-3">
                             Key Teachings & Contributions:
