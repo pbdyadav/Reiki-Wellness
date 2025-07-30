@@ -144,6 +144,15 @@ const GuruParampara = () => {
       image: 'Shri Shankar Purushottam.png',
     },
     {
+      name: 'Shri Yoganandaji Maharaj',
+      title: 'Shaktipat Yogi & Author of Mahayog Vigyan',
+      period: '1900s – 1959',
+      description:
+        'Born as Daya Shankar in Gujarat, he renounced worldly life in search of true yogic wisdom. After receiving Shaktipat initiation from Swami Narayan Tirth, he became known as Yogendra Vigyani and guided many on the path of Kundalini awakening.',
+      teachings: 'Shaktipat Initiation, Author of Mahayog Vigyan, Guru to Swami Vishnu Tirth & Swami Purushottam Tirth, Vigyan Ashram founder, Emphasis on inner spiritual experience',
+      image: 'Shri Yoganand Ji Maharaj.png',
+    },
+    {
       name: 'Master Nitin Agrawal',
       title: 'Current Reiki Practitioners',
       period: '(****-Present',
