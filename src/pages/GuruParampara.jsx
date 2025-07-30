@@ -152,6 +152,15 @@ const GuruParampara = () => {
       teachings: 'Shaktipat Initiation, Author of Mahayog Vigyan, Guru to Swami Vishnu Tirth & Swami Purushottam Tirth, Vigyan Ashram founder, Emphasis on inner spiritual experience',
       image: 'Shri Yoganand Ji Maharaj.png',
     },
+     {
+      name: 'Swami Shivom Tirth',
+      title: 'SShaktipat Guru & Spiritual Author',
+      period: '1924 – 2008',
+      description:
+        'Born as Om Prakash in Gujarat, Punjab (now in Pakistan), Swami Shivom Tirth renounced worldly life after years of deep inner calling. A disciple of Swami Vishnu Tirth Maharaj, he became a leading figure in the Siddhayoga lineage, known for his clarity, compassion, and depth in spiritual guidance.',
+      teachings: 'Shaktipat Siddhayoga, Author of many yogic texts, Propagation of Tirth lineage, Spiritual retreats, Life dedicated to inner purification.',
+      image: 'Swami Shivom Tirth Ji maharaj.png',
+    },
     {
       name: 'Master Nitin Agrawal',
       title: 'Current Reiki Practitioners',
