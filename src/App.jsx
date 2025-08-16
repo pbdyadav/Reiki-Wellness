@@ -15,6 +15,7 @@ import Meditation from '@/pages/Meditation.jsx';
 import OnlineStore from '@/pages/OnlineStore.jsx';
 import Contact from '@/pages/Contact.jsx';
 import AuraCleansing from '@/pages/AuraCleansing.jsx';
+import UnderConstruction from "./pages/UnderConstruction";
 
 function App() {
   return (
@@ -29,11 +30,11 @@ function App() {
   <Route path="/how-reiki-works" element={<HowReikiWorks />} />
   <Route path="/about-healer" element={<AboutHealer />} />
   <Route path="/guru-parampara" element={<GuruParampara />} />
-  {/* <Route path="/reiki-tools" element={<ReikiTools />} /> */}
+  <Route path="/reiki-tools" element={<UnderConstruction />} />
   <Route path="/chakras" element={<ChakrasExplained />} />
   <Route path="/aura-cleansing" element={<AuraCleansing />} />
   <Route path="/meditation" element={<Meditation />} />
-  {/* <Route path="/store" element={<OnlineStore />} /> */}
+  <Route path="/store" element={<UnderConstruction />} />
   <Route path="/contact" element={<Contact />} />
 </Routes>
         </main>
