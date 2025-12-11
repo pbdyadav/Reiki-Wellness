@@ -10,8 +10,8 @@ const GuruParampara = () => {
     {
       name: 'Dr. Mikao Usui',
       title: 'Founder of Reiki',
-      period: '1865–1926',
-      description: `Dr. Mikao Usui\nFounder of Reiki\n\n1865–1926\n\nThe enlightened master who received the gift of Reiki during his spiritual retreat on Mount Kurama. His dedication to healing and spiritual development laid the foundation for all Reiki practice.`,
+      period: '1865-1926',
+      description: `Dr. Mikao Usui\nFounder of Reiki\n\n1865-1926\n\nThe enlightened master who received the gift of Reiki during his spiritual retreat on Mount Kurama. His dedication to healing and spiritual development laid the foundation for all Reiki practice.`,
       longDescription: `Dr. Mikao Usui was born on August 15, 1865, in the small village of Taniai, located in the Gifu Prefecture of Japan. He came from a samurai heritage, a lineage that valued discipline, education, and spiritual insight. Raised in a Tendai Buddhist household, Usui was exposed to both religious and scholarly pursuits from an early age. His family followed a balanced blend of martial training and intellectual development, which laid the groundwork for his multifaceted journey.
       Throughout his youth and adulthood, Usui pursued studies in a diverse range of disciplines. These included medicine, psychology, religion, energy practices, and ancient healing arts. He was particularly drawn to the study of sacred texts from both Eastern and Western traditions, including Buddhist sutras and Christian scriptures. This wide-ranging curiosity was not merely academic but fueled by a deeper quest for spiritual truth and healing methods that could uplift humanity.
       A Spiritual Turning Point on Mount Kurama
@@ -30,23 +30,23 @@ const GuruParampara = () => {
       These principles were designed not as commandments but as daily reminders for a balanced life. Usui believed that true healing arises when one aligns with these values in thought, word, and action.
       His method of teaching Reiki included:
       •	Hand placements for energy transfer
-      •	Reiju (attunement) to awaken students’ capacity to channel Reiki
+      •	Reiju (attunement) to awaken students' capacity to channel Reiki
       •	Meditation and breathwork for inner awareness
       His philosophy was open and inclusive, teaching anyone who showed sincerity and readiness, regardless of social or religious background.
       Growth, Teaching, and Discipleship
       Over the next few years, Usui traveled across Japan, teaching and healing in places such as Hiroshima, Fukuyama, and Saga. He initiated more than 2,000 students and trained around 16 to 20 masters capable of passing on Reiki.
-      One of his most prominent students was Chujiro Hayashi, a retired naval officer. Hayashi systematized Usui’s teachings into a more medical framework and played a critical role in the Westward spread of Reiki through his student, Hawayo Takata, a Japanese-American woman who later brought Reiki to Hawaii and the broader United States.
-      Usui’s direct lineage continued through the Usui Reiki Ryoho Gakkai, which remains active in Japan today. Although much of its work is private, it preserves Usui’s traditional practices and methods.
+      One of his most prominent students was Chujiro Hayashi, a retired naval officer. Hayashi systematized Usui's teachings into a more medical framework and played a critical role in the Westward spread of Reiki through his student, Hawayo Takata, a Japanese-American woman who later brought Reiki to Hawaii and the broader United States.
+      Usui's direct lineage continued through the Usui Reiki Ryoho Gakkai, which remains active in Japan today. Although much of its work is private, it preserves Usui's traditional practices and methods.
       Passing and Memorial
       Dr. Mikao Usui passed away on March 9, 1926, in Fukuyama, Japan, from a stroke. His ashes were buried at the Saihōji Temple in Tokyo. A memorial stone erected by his students still stands there, honoring his contributions to healing and spiritual growth. The inscription praises his character, his compassion, and the universal value of the system he created.
       Legacy and Impact
-      Today, Reiki is practiced worldwide in many forms, yet the core philosophy remains aligned with Usui’s vision: healing through love, wisdom, and service. Although modern branches of Reiki may differ in technique, the spiritual essence he uncovered on Mount Kurama continues to guide millions.
+      Today, Reiki is practiced worldwide in many forms, yet the core philosophy remains aligned with Usui's vision: healing through love, wisdom, and service. Although modern branches of Reiki may differ in technique, the spiritual essence he uncovered on Mount Kurama continues to guide millions.
       Dr. Usui's legacy is not limited to the healing of the body. He introduced a path that empowers individuals to reconnect with their innate potential for balance and harmony, both within and with others.
       His life story reminds us that healing is more than technique—it is an offering of compassion, discipline, and alignment with universal truth.
       
       डॉ. मिकाओ उसुई: एक विस्तृत जीवन परिचय
       रेकी के संस्थापक
-      1865 – 1926
+      1865 - 1926
       प्रारंभिक जीवन और पृष्ठभूमि
       डॉ. मिकाओ उसुई का जन्म 15 अगस्त 1865 को जापान के गिफू प्रान्त के तानियाई नामक एक छोटे गाँव में हुआ था। वह एक समुराई परिवार से ताल्लुक रखते थे, जहाँ अनुशासन, शिक्षा और आध्यात्मिक अंतर्दृष्टि को महत्व दिया जाता था। एक तेंदाई बौद्ध परिवार में पले-बढ़े उसुई को प्रारंभ से ही धार्मिक और बौद्धिक संस्कारों का वातावरण मिला।
       अपने युवावस्था और वयस्क जीवन में, उसुई ने चिकित्सा, मनोविज्ञान, धर्म, ऊर्जा उपचार और प्राचीन चिकित्सा पद्धतियों सहित अनेक विषयों का अध्ययन किया। उन्हें पूर्व और पश्चिम दोनों की धार्मिक पुस्तकों जैसे बौद्ध सूत्र और बाइबिल में विशेष रुचि थी। उनका यह अध्ययन केवल ज्ञानार्जन नहीं बल्कि मानवता की सेवा और आध्यात्मिक उन्नति की गहराई से प्रेरित था।
@@ -119,7 +119,7 @@ const GuruParampara = () => {
     {
       name: 'Swami Gangadhar Tirth',
       title: 'Shaktipat Yogi & Spiritual Revivalist',
-      period: '1870 – Unknown',
+      period: '1870 - Unknown',
       description:
         'A reclusive saint from Mathura who revived the ancient Shaktipat tradition in the late 19th century. Known for his deep meditation, renunciation, and guidance to select disciples.',
       teachings: 'Revival of Shaktipat Yoga, Initiated Swami Narayan Dev Tirth, Solitary spiritual discipline',
@@ -128,7 +128,7 @@ const GuruParampara = () => {
     {
       name: 'Swami Narayan Tirth Devji Maharaj',
       title: 'Shaktipat Master & Siddha Yogi',
-      period: '1915 – Unknown',
+      period: '1915 - Unknown',
       description:
         'Born as Kalipada Acharya in Varajuri, Bihar, he renounced worldly life in 1939 and met his guru, Swami Shankar Purushottam Tirtha, in Puri...',
       teachings: 'Leadership of Siddhayogashram, Preservation of Shaktipat lineage, Silent spiritual transmission',
@@ -137,7 +137,7 @@ const GuruParampara = () => {
     {
       name: 'Swami Shankar Purushottam Tirth Maharaj',
       title: 'Shaktipat Yogi & Spiritual Mystic',
-      period: '1890 – Unknown',
+      period: '1890 - Unknown',
       description:
         'Born as Rohinikumar (later Atmanandprakash Brahmachari) in 1890 in Laxmipur, Tripura...',
       teachings: 'Propagation of the Shaktipat tradition, Exemplary celibacy and discipline, Spiritual guidance under Sudder and solitary asceticism',
@@ -146,7 +146,7 @@ const GuruParampara = () => {
     {
       name: 'Shri Yoganandaji Maharaj',
       title: 'Shaktipat Yogi & Author of Mahayog Vigyan',
-      period: '1900s – 1959',
+      period: '1900s - 1959',
       description:
         'Born as Daya Shankar in Gujarat, he renounced worldly life in search of true yogic wisdom. After receiving Shaktipat initiation from Swami Narayan Tirth, he became known as Yogendra Vigyani and guided many on the path of Kundalini awakening.',
       teachings: 'Shaktipat Initiation, Author of Mahayog Vigyan, Guru to Swami Vishnu Tirth & Swami Purushottam Tirth, Vigyan Ashram founder, Emphasis on inner spiritual experience',
@@ -155,7 +155,7 @@ const GuruParampara = () => {
      {
       name: 'Swami Shivom Tirth',
       title: 'SShaktipat Guru & Spiritual Author',
-      period: '1924 – 2008',
+      period: '1924 - 2008',
       description:
         'Born as Om Prakash in Gujarat, Punjab (now in Pakistan), Swami Shivom Tirth renounced worldly life after years of deep inner calling. A disciple of Swami Vishnu Tirth Maharaj, he became a leading figure in the Siddhayoga lineage, known for his clarity, compassion, and depth in spiritual guidance.',
       teachings: 'Shaktipat Siddhayoga, Author of many yogic texts, Propagation of Tirth lineage, Spiritual retreats, Life dedicated to inner purification.',
