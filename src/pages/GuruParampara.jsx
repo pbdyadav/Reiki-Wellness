@@ -154,7 +154,7 @@ const GuruParampara = () => {
     },
     {
       name: 'Swami Shivom Tirth',
-      title: 'SShaktipat Guru & Spiritual Author',
+      title: 'Shaktipat Guru & Spiritual Author',
       period: '1924 - 2008',
       description:
         'Born as Om Prakash in Gujarat, Punjab (now in Pakistan), Swami Shivom Tirth renounced worldly life after years of deep inner calling. A disciple of Swami Vishnu Tirth Maharaj, he became a leading figure in the Siddhayoga lineage, known for his clarity, compassion, and depth in spiritual guidance.',
