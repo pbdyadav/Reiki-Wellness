@@ -63,7 +63,7 @@ const WhatIsReiki = () => {
                 <img  
                   className="w-full rounded-xl shadow-lg aura-glow" 
                   alt="Reiki healing energy flowing through hands"
-                 src="https://images.unsplash.com/photo-1597149648209-3f5995e8fd01" />
+                 src="/w_i_reiki.png" />
               </motion.div>
             </div>
           </div>

@@ -17,7 +17,7 @@ const Home = () => {
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center spiritual-gradient mandala-bg overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-white/10 to-white/20"></div>
-        
+
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -26,11 +26,11 @@ const Home = () => {
             className="space-y-8"
           >
             <div className="floating">
-              <img  
-                src="/Home_Logo.png" 
+              <img
+                src="/Home_Logo.png"
                 className="w-60 h-60 mx-auto rounded-full aura-glow"
                 alt="Reiki Wellness Logo"
-                />
+              />
             </div>
 
             <h1 className="font-display text-5xl md:text-7xl font-bold text-gray-800 leading-tight">
@@ -41,12 +41,12 @@ const Home = () => {
             </h1>
 
             <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-  Experience divine healing and spiritual transformation with
-  <br />
-  <span className="font-semibold text-purple-700">Reiki Master Nitin Agrawal</span>
-  <br />
-  <span className="text-lg">24+ Years of Sacred Healing Journey</span>
-</p>
+              Experience divine healing and spiritual transformation with
+              <br />
+              <span className="font-semibold text-purple-700">Reiki Master Nitin Agrawal</span>
+              <br />
+              <span className="text-lg">24+ Years of Sacred Healing Journey</span>
+            </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <Link to="/store">
@@ -152,55 +152,31 @@ const Home = () => {
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[
-              {
-                title: 'Reiki Healing Sessions',
-                description: 'Personal and distant healing sessions for physical, emotional, and spiritual wellness',
-                image: 'Peaceful Reiki healing session with hands glowing with healing energy',
-                link: '/store'
-              },
-              {
-                title: 'Sacred Crystals & Tools',
-                description: 'Authentic healing crystals, singing bowls, and spiritual artifacts',
-                image: 'Beautiful collection of healing crystals in various colors and shapes',
-                link: '/reiki-tools'
-              },
-              {
-                title: 'Chakra Balancing',
-                description: 'Complete chakra assessment and balancing for optimal energy flow',
-                image: 'Seven chakras aligned in meditation pose with colorful energy centers',
-                link: '/chakras'
-              }
-            ].map((service, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow"
-              >
-                <div className="h-48 overflow-hidden">
-                  <img  
-                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" 
-                    alt={service.title}
-                   src="https://images.unsplash.com/photo-1595872018818-97555653a011" />
-                </div>
-                <div className="p-6">
-                  <h3 className="font-display text-xl font-semibold text-gray-800 mb-3">
-                    {service.title}
-                  </h3>
-                  <p className="text-gray-600 mb-4">
-                    {service.description}
-                  </p>
-                  <Link to={service.link}>
-                    <Button variant="outline" className="border-purple-600 text-purple-600 hover:bg-purple-50">
-                      Learn More
-                    </Button>
-                  </Link>
-                </div>
-              </motion.div>
-            ))}
-          </div>
+  {[
+    { title: 'Reiki Healing Sessions', image: '/Reiki_Healing_Sessions.png' },
+    { title: 'Sacred Crystals & Tools', image: '/Sacred_Crystals_&_Tools.png' },
+    { title: 'Chakra Balancing', image: '/Chakra_Balancing.png' },
+    { title: 'Healing Attunement', image: '/Healing_Attunement.png' },
+    { title: 'Aura Cleaning', image: '/Aura_Cleaning.png' },
+    { title: 'Karmic Healing', image: '/Karmic_Healing.png' }
+  ].map((service, index) => (
+    <motion.div
+      key={index}
+      initial={{ opacity: 0, y: 20 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6, delay: index * 0.1 }}
+      className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow cursor-pointer"
+      onClick={() => setFullImage(service.image)}
+    >
+      <img
+        className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+        alt={service.title}
+        src={service.image}
+      />
+    </motion.div>
+  ))}
+</div>
+          
         </div>
       </section>
 
@@ -217,7 +193,7 @@ const Home = () => {
               Begin Your Healing Journey Today
             </h2>
             <p className="text-xl text-purple-100 max-w-2xl mx-auto">
-              Take the first step towards spiritual wellness and inner peace. 
+              Take the first step towards spiritual wellness and inner peace.
               Connect with Reiki Master Nitin Agrawal for personalized healing guidance.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

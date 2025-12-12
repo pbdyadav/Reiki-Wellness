@@ -15,10 +15,10 @@ const Navbar = () => {
     { name: 'How Reiki Works', path: '/how-reiki-works' },
     { name: 'About Healer', path: '/about-healer' },
     { name: 'Guru Parampara', path: '/guru-parampara' },
-    { name: 'Reiki Tools', path: '/reiki-tools' },
-    { name: 'Chakras', path: '/chakras' },
-    { name: 'Meditation', path: '/meditation' },
-    { name: 'Store', path: '/store' },
+    // { name: 'Reiki Tools', path: '/reiki-tools' },
+    // { name: 'Chakras', path: '/chakras' },
+    //{ name: 'Meditation', path: '/meditation' },
+    // { name: 'Store', path: '/store' },
     { name: 'Contact', path: '/contact' },
   ];
 

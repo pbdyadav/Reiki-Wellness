@@ -74,13 +74,13 @@ const HowReikiWorks = () => {
                     Universal Life Force (Ki)
                   </h3>
                   <p className="text-gray-600 leading-relaxed mb-4">
-                    Ki (also known as Chi or Prana) is the universal life force energy that flows 
-                    through all living beings. When this energy is low or blocked, we experience 
+                    Ki (also known as Chi or Prana) is the universal life force energy that flows
+                    through all living beings. When this energy is low or blocked, we experience
                     illness, stress, and emotional imbalance.
                   </p>
                   <p className="text-gray-600 leading-relaxed">
-                    Reiki practitioners channel this universal energy through their hands, 
-                    allowing it to flow where it's needed most in the recipient's body, 
+                    Reiki practitioners channel this universal energy through their hands,
+                    allowing it to flow where it's needed most in the recipient's body,
                     mind, and spirit.
                   </p>
                 </div>
@@ -107,10 +107,11 @@ const HowReikiWorks = () => {
                 transition={{ duration: 0.6 }}
                 className="floating"
               >
-                <img  
-                  className="w-full rounded-xl shadow-lg aura-glow" 
-                  alt="Energy flow through human body showing chakras and aura"
-                 src="https://images.unsplash.com/photo-1645823207300-3820fa325a1c" />
+                <img
+                  className="w-full rounded-xl shadow-lg aura-glow"
+                  alt="Universal Life Force Energy"
+                  src="/Universal.png"
+                />
               </motion.div>
             </div>
           </div>
@@ -222,10 +223,10 @@ const HowReikiWorks = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.6 }}
               >
-                <img  
-                  className="w-full rounded-xl shadow-lg" 
+                <img
+                  className="w-full rounded-xl shadow-lg"
                   alt="Seven chakras aligned in meditation pose"
-                 src="https://images.unsplash.com/photo-1544591800-efe3083918fe" />
+                  src="https://images.unsplash.com/photo-1544591800-efe3083918fe" />
               </motion.div>
 
               <motion.div

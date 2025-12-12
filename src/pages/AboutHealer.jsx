@@ -61,10 +61,10 @@ const AboutHealer = () => {
                 className="text-center lg:text-left"
               >
                 <div className="floating">
-                  <img  
-                    className="w-80 h-90 mx-auto lg:mx-0 shadow-2xl aura-glow object-cover" 
+                  <img
+                    className="w-80 h-90 mx-auto lg:mx-0 shadow-2xl aura-glow object-cover"
                     alt="Reiki Master Nitin Agrawal in meditation pose"
-                   src="NitinAgrawalBG.png" />
+                    src="NitinAgrawalBG.jpg" />
                 </div>
               </motion.div>
 
@@ -79,13 +79,13 @@ const AboutHealer = () => {
                     Reiki Master Nitin Agrawal
                   </h2>
                   <p className="text-gray-600 text-lg leading-relaxed mb-4">
-                    With over 24 years of dedicated service to the healing arts, Reiki Master Nitin 
-                    Agrawal has become a beacon of hope and transformation for thousands of souls 
+                    With over 24 years of dedicated service to the healing arts, Reiki Master Nitin
+                    Agrawal has become a beacon of hope and transformation for thousands of souls
                     seeking spiritual wellness and inner peace.
                   </p>
                   <p className="text-gray-600 leading-relaxed">
-                    His journey began with a profound spiritual awakening that led him to master 
-                    multiple healing modalities, each adding depth and dimension to his ability 
+                    His journey began with a profound spiritual awakening that led him to master
+                    multiple healing modalities, each adding depth and dimension to his ability
                     to facilitate healing on all levels - physical, emotional, mental, and spiritual.
                   </p>
                 </div>
@@ -128,71 +128,78 @@ const AboutHealer = () => {
             </motion.div>
 
             <div className="space-y-12">
-              {[
-                {
-                  year: '2000',
-                  title: 'The Awakening',
-                  description: 'Master Nitin\'s spiritual journey began with his first Reiki attunement, opening him to the world of energy healing and divine connection.'
-                },
-                {
-                  year: '2005',
-                  title: 'Deepening Practice',
-                  description: 'Achieved Reiki Master level and began studying advanced healing modalities including Karuna and Sanjeevani Reiki systems.'
-                },
-                {
-                  year: '2010',
-                  title: 'Expanding Horizons',
-                  description: 'Mastered Violet Flame healing and Angelic Reiki, incorporating celestial energies into his healing practice.'
-                },
-                {
-                  year: '2015',
-                  title: 'Teaching & Sharing',
-                  description: 'Began training and attuning students, sharing the sacred knowledge and empowering others to become healers.'
-                },
-                {
-                  year: '2020',
-                  title: 'Digital Healing',
-                  description: 'Adapted to provide distant healing and online training, reaching souls across the globe during challenging times.'
-                },
-                {
-                  year: '2024',
-                  title: 'Reiki Wellness',
-                  description: 'Established this sacred space to offer comprehensive healing services and spiritual guidance to all seekers.'
-                }
-              ].map((milestone, index) => (
-                <motion.div
-                  key={index}
-                  initial={{ opacity: 0, x: index % 2 === 0 ? -30 : 30 }}
-                  whileInView={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.6 }}
-                  className={`flex flex-col lg:flex-row items-center gap-8 ${
-                    index % 2 === 1 ? 'lg:flex-row-reverse' : ''
-                  }`}
-                >
-                  <div className="lg:w-1/2">
-                    <div className="bg-white rounded-xl p-8 shadow-lg">
-                      <div className="flex items-center mb-4">
-                        <div className="w-12 h-12 bg-gradient-to-r from-purple-600 to-violet-600 rounded-full flex items-center justify-center mr-4">
-                          <span className="text-white font-bold">{milestone.year}</span>
-                        </div>
-                        <h3 className="font-display text-2xl font-semibold text-gray-800">
-                          {milestone.title}
-                        </h3>
-                      </div>
-                      <p className="text-gray-600 leading-relaxed">
-                        {milestone.description}
-                      </p>
-                    </div>
-                  </div>
-                  <div className="lg:w-1/2">
-                    <img  
-                      className="w-full rounded-xl shadow-lg" 
-                      alt={`${milestone.title} - spiritual journey milestone`}
-                     src="https://images.unsplash.com/photo-1588750844893-6395f445d5cf" />
-                  </div>
-                </motion.div>
-              ))}
+  {[
+    {
+      year: '2000',
+      title: 'The Awakening',
+      description:
+        "Master Nitin's spiritual journey began with his first Reiki attunement, opening him to the world of energy healing and divine connection."
+    },
+    {
+      year: '2005',
+      title: 'Deepening Practice',
+      description:
+        'Achieved Reiki Master level and began studying advanced healing modalities including Karuna and Sanjeevani Reiki systems.'
+    },
+    {
+      year: '2010',
+      title: 'Expanding Horizons',
+      description:
+        'Mastered Violet Flame healing and Angelic Reiki, incorporating celestial energies into his healing practice.'
+    },
+    {
+      year: '2015',
+      title: 'Teaching & Sharing',
+      description:
+        'Began training and attuning students, sharing the sacred knowledge and empowering others to become healers.'
+    },
+    {
+      year: '2020',
+      title: 'Digital Healing',
+      description:
+        'Adapted to provide distant healing and online training, reaching souls across the globe during challenging times.'
+    },
+    {
+      year: '2024',
+      title: 'Reiki Wellness',
+      description:
+        'Established this sacred space to offer comprehensive healing services and spiritual guidance to all seekers.'
+    }
+  ].map((milestone, index) => (
+    <motion.div
+      key={index}
+      initial={{ opacity: 0, x: index % 2 === 0 ? -30 : 30 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      transition={{ duration: 0.6 }}
+      className={`flex flex-col lg:flex-row items-center gap-8 ${
+        index % 2 === 1 ? 'lg:flex-row-reverse' : ''
+      }`}
+    >
+      <div className="lg:w-1/2">
+        <div className="bg-white rounded-xl p-8 shadow-lg">
+          <div className="flex items-center mb-4">
+            <div className="w-12 h-12 bg-gradient-to-r from-purple-600 to-violet-600 rounded-full flex items-center justify-center mr-4">
+              <span className="text-white font-bold">{milestone.year}</span>
             </div>
+            <h3 className="font-display text-2xl font-semibold text-gray-800">
+              {milestone.title}
+            </h3>
+          </div>
+          <p className="text-gray-600 leading-relaxed">
+            {milestone.description}
+          </p>
+        </div>
+      </div>
+      <div className="lg:w-1/2">
+        <img  
+          className="w-full rounded-xl shadow-lg"
+          alt={`${milestone.title} - spiritual journey milestone`}
+          src={`/journey-${milestone.year}.png`}
+        />
+      </div>
+    </motion.div>
+  ))}
+</div>
           </div>
         </section>
 
@@ -257,10 +264,10 @@ const AboutHealer = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ duration: 0.6 }}
               >
-                <img  
-                  className="w-full rounded-xl shadow-lg" 
+                <img
+                  className="w-full rounded-xl shadow-lg"
                   alt="Healing hands with divine light"
-                 src="https://images.unsplash.com/photo-1679771650989-1d79c12c79a9" />
+                  src="https://images.unsplash.com/photo-1679771650989-1d79c12c79a9" />
               </motion.div>
 
               <motion.div
@@ -274,8 +281,8 @@ const AboutHealer = () => {
                     "Healing is not just about the body..."
                   </h3>
                   <p className="text-gray-600 leading-relaxed">
-                    "True healing encompasses the entire being - body, mind, emotions, and spirit. 
-                    My role is to be a clear channel for divine healing energy, allowing it to 
+                    "True healing encompasses the entire being - body, mind, emotions, and spirit.
+                    My role is to be a clear channel for divine healing energy, allowing it to
                     flow where it's needed most for the highest good of each individual."
                   </p>
                 </div>
