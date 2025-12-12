@@ -152,7 +152,7 @@ const GuruParampara = () => {
       teachings: 'Shaktipat Initiation, Author of Mahayog Vigyan, Guru to Swami Vishnu Tirth & Swami Purushottam Tirth, Vigyan Ashram founder, Emphasis on inner spiritual experience',
       image: 'Shri Yoganand Ji Maharaj.png',
     },
-     {
+    {
       name: 'Swami Shivom Tirth',
       title: 'SShaktipat Guru & Spiritual Author',
       period: '1924 - 2008',
@@ -230,6 +230,13 @@ const GuruParampara = () => {
             >
               <h2 className="font-display text-4xl font-bold text-gray-800 mb-6">
                 The Sacred Lineage
+                <div className="flex justify-center mb-10">
+                  <img
+                    src="/Guru_Parampara.png"
+                    alt="Guru Parampara"
+                    className="w-50 h-auto rounded-xl shadow-2xl"
+                  />
+                </div>
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                 From the mountains of Japan to the shores of Hawaii, and now to the heart of India
@@ -243,17 +250,17 @@ const GuruParampara = () => {
                   initial={{ opacity: 0, y: 30 }}
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.6, delay: index * 0.1 }}
-                  className={`flex flex-col lg:flex-row items-center gap-12 ${
-                    index % 2 === 1 ? 'lg:flex-row-reverse' : ''
-                  }`}
+                  className={`flex flex-col lg:flex-row items-center gap-12 ${index % 2 === 1 ? 'lg:flex-row-reverse' : ''
+                    }`}
                 >
-                  <div className="lg:w-1/3">
+                  {/* Guru images removed as requested */}
+                  {/* <div className="lg:w-1/3">
                     <div className="relative">
                       <img
                         className="w-80 h-85 mx-auto shadow-2xl aura-glow object-cover rounded-xl"
                         alt={`${guru.name} - Reiki Master`}
                         src={`/${guru.image}`}
-                      />
+                      /> 
                       <div className="absolute -top-4 -right-4 w-12 h-12 bg-gradient-to-r from-purple-600 to-violet-600 rounded-full flex items-center justify-center">
                         {index === 0 ? (
                           <Crown className="h-6 w-6 text-white" />
@@ -264,7 +271,7 @@ const GuruParampara = () => {
                         )}
                       </div>
                     </div>
-                  </div>
+                  </div>*/}
 
                   <div className="lg:w-2/3">
                     <div className="bg-white rounded-xl p-8 shadow-lg">
@@ -282,8 +289,8 @@ const GuruParampara = () => {
                         {guru.name === 'Dr. Mikao Usui' && !showFullDescription
                           ? guru.description
                           : guru.name === 'Dr. Mikao Usui'
-                          ? `${guru.description}\n\n${guru.longDescription}`
-                          : guru.description}
+                            ? `${guru.description}\n\n${guru.longDescription}`
+                            : guru.description}
                       </p>
 
                       {guru.name === 'Dr. Mikao Usui' && (

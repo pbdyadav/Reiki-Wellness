@@ -5,8 +5,11 @@ import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { Heart, Star, Users, Award } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import AnimatedCard from "@/components/AnimatedCard";
+
 
 const Home = () => {
+  const [fullImage, setFullImage] = React.useState(null);
   return (
     <>
       <Helmet>
@@ -65,7 +68,7 @@ const Home = () => {
 
         {/* Floating Elements */}
         <div className="absolute top-20 left-10 floating pulse-gentle">
-          <Heart className="h-8 w-8 text-purple-400" />
+          {/*<Heart className="h-8 w-8 text-purple-400" /> */}
         </div>
         <div className="absolute bottom-20 right-10 floating pulse-gentle" style={{ animationDelay: '2s' }}>
           <Star className="h-6 w-6 text-violet-400" />
@@ -154,34 +157,60 @@ const Home = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
   {[
     { title: 'Reiki Healing Sessions', image: '/Reiki_Healing_Sessions.png' },
-    { title: 'Sacred Crystals & Tools', image: '/Sacred_Crystals_&_Tools.png' },
+    { title: 'Sacred Crystals n Tools', image: '/Sacred_Crystals_n_Tools.png' },
     { title: 'Chakra Balancing', image: '/Chakra_Balancing.png' },
     { title: 'Healing Attunement', image: '/Healing_Attunement.png' },
     { title: 'Aura Cleaning', image: '/Aura_Cleaning.png' },
-    { title: 'Karmic Healing', image: '/Karmic_Healing.png' }
-  ].map((service, index) => (
-    <motion.div
-      key={index}
-      initial={{ opacity: 0, y: 20 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.6, delay: index * 0.1 }}
-      className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow cursor-pointer"
+    { title: 'Karmic Healing', image: '/Karmic_Healing.png' },
+  ].map((service, i) => (
+    <div
+      key={i}
+      className="relative rounded-xl overflow-hidden cursor-pointer group floating"
       onClick={() => setFullImage(service.image)}
+      style={{ animationDelay: `${i * 0.3}s` }}
     >
-      <img
-        className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-        alt={service.title}
-        src={service.image}
-      />
-    </motion.div>
+      {/* Animated Card Container */}
+      <motion.div
+        initial={{ opacity: 0, scale: 0.9 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.6, delay: i * 0.1 }}
+        className="rounded-xl shadow-xl hover:shadow-2xl transition-all aura-glow"
+      >
+        {/* Image */}
+        <img
+          src={service.image}
+          alt={service.title}
+          className="w-full h-full object-cover rounded-xl group-hover:scale-110 transition-transform duration-700"
+        />
+      </motion.div>
+
+      {/* Shine Animation */}
+      <div className="absolute inset-0 crystal-shine rounded-xl pointer-events-none"></div>
+
+      {/* Glow Aura */}
+      <div className="absolute inset-0 rounded-xl pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity duration-700 aura-glow"></div>
+    </div>
   ))}
 </div>
-          
-        </div>
-      </section>
+        {/* Fullscreen Image Modal */}
+        {fullImage && (
+          <div
+            className="fixed inset-0 bg-black/80 backdrop-blur-sm flex items-center justify-center z-50"
+            onClick={() => setFullImage(null)}
+          >
+            <img
+              src={fullImage}
+              alt="Full View"
+              className="max-w-[90%] max-h-[90%] rounded-xl shadow-2xl animate-zoom"
+            />
+          </div>
+        )}
 
-      {/* Call to Action */}
-      <section className="py-20 bg-gradient-to-r from-purple-600 to-violet-600 text-white">
+      </div>
+    </section >
+
+      {/* Call to Action */ }
+      < section className = "py-20 bg-gradient-to-r from-purple-600 to-violet-600 text-white" >
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -203,14 +232,14 @@ const Home = () => {
                 </Button>
               </Link>
               <Link to="/about-healer">
-                <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 px-8 py-3 text-lg">
+                <Button size="lg" variant="secondary" className="bg-white text-purple-600 hover:bg-gray-100 px-8 py-3 text-lg">
                   Meet the Healer
                 </Button>
               </Link>
             </div>
           </motion.div>
         </div>
-      </section>
+      </section >
     </>
   );
 };

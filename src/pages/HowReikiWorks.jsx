@@ -6,13 +6,13 @@ import { Hand, Zap, Circle, Waves } from 'lucide-react';
 
 const HowReikiWorks = () => {
   const chakras = [
-    { name: 'Root', color: 'bg-red-500', position: 'Base of spine' },
-    { name: 'Sacral', color: 'bg-orange-500', position: 'Lower abdomen' },
-    { name: 'Solar Plexus', color: 'bg-yellow-500', position: 'Upper abdomen' },
-    { name: 'Heart', color: 'bg-green-500', position: 'Center of chest' },
-    { name: 'Throat', color: 'bg-blue-500', position: 'Throat area' },
-    { name: 'Third Eye', color: 'bg-indigo-500', position: 'Between eyebrows' },
-    { name: 'Crown', color: 'bg-purple-500', position: 'Top of head' }
+    { name: 'Root', img: '/chakras/root.gif', position: 'Base of spine' },
+    { name: 'Sacral', img: '/chakras/sacral.gif', position: 'Lower abdomen' },
+    { name: 'Solar Plexus', img: '/chakras/solar-plexus.gif', position: 'Upper abdomen' },
+    { name: 'Heart', img: '/chakras/heart.gif', position: 'Center of chest' },
+    { name: 'Throat', img: '/chakras/throat.gif', position: 'Throat area' },
+    { name: 'Third Eye', img: '/chakras/third-eye.gif', position: 'Between eyebrows' },
+    { name: 'Crown', img: '/chakras/crown.gif', position: 'Top of head' }
   ];
 
   return (
@@ -226,7 +226,7 @@ const HowReikiWorks = () => {
                 <img
                   className="w-full rounded-xl shadow-lg"
                   alt="Seven chakras aligned in meditation pose"
-                  src="https://images.unsplash.com/photo-1544591800-efe3083918fe" />
+                  src="/chakras/7Cakras.png" />
               </motion.div>
 
               <motion.div
@@ -243,7 +243,11 @@ const HowReikiWorks = () => {
                     transition={{ duration: 0.4, delay: index * 0.1 }}
                     className="flex items-center space-x-4 bg-white rounded-lg p-4 shadow"
                   >
-                    <div className={`w-8 h-8 rounded-full ${chakra.color} flex-shrink-0`}></div>
+                    <img
+                      src={chakra.img}
+                      alt={chakra.name}
+                      className="w-20 h-20 rounded-full object-contain flex-shrink-0"
+                    />
                     <div>
                       <h3 className="font-semibold text-gray-800">{chakra.name} Chakra</h3>
                       <p className="text-sm text-gray-600">{chakra.position}</p>
