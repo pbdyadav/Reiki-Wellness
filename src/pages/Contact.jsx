@@ -105,21 +105,21 @@ const Contact = () => {
                 {
                   icon: Phone,
                   title: 'Call Us',
-                  info: '+91 98765 43210',
+                  info: '+91 94250 59664',
                   description: 'Speak directly with our team for immediate assistance',
                   action: 'Call Now'
                 },
                 {
                   icon: MessageCircle,
                   title: 'WhatsApp',
-                  info: '+91 98765 43210',
+                  info: '+91 94250 59664',
                   description: 'Quick and convenient messaging for questions and bookings',
                   action: 'Chat on WhatsApp'
                 },
                 {
                   icon: Mail,
                   title: 'Email',
-                  info: 'info@reikiwellness.in',
+                  info: 'nitinagrawal5@gmail.com',
                   description: 'Send detailed inquiries and receive comprehensive responses',
                   action: 'Send Email'
                 },
@@ -226,7 +226,7 @@ const Contact = () => {
                         value={formData.phone}
                         onChange={handleInputChange}
                         className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-600 focus:border-transparent"
-                        placeholder="+91 98765 43210"
+                        placeholder="+91 94250 59664"
                       />
                     </div>
                     <div>
