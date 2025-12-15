@@ -23,21 +23,40 @@ const Contact = () => {
     });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    toast({
-      title: "🚧 This feature isn't implemented yet—but don't worry! You can request it in your next prompt! 🚀",
-      description: "Your message would be sent to Master Nitin.",
-    });
-  };
-
   const handleWhatsApp = () => {
-    toast({
-      title: "🚧 This feature isn't implemented yet—but don't worry! You can request it in your next prompt! 🚀",
-      description: "WhatsApp chat would open.",
-    });
+    window.open('https://wa.me/919425059664', '_blank');
   };
 
+  const handleCall = () => {
+    window.location.href = 'tel:+919425059664';
+  };
+
+  const handleEmail = () => {
+    window.location.href = 'mailto:nitinagrawal5@gmail.com';
+  };
+
+  const handleMap = () => {
+    window.open(
+      'https://www.google.com/maps/search/?api=1&query=Annapurna+Road+Indore',
+      '_blank'
+    );
+  };
+const handleSubmit = (e) => {
+  e.preventDefault();
+
+  const mailtoLink = `mailto:nitinagrawal5@gmail.com?subject=${encodeURIComponent(
+    formData.subject
+  )}&body=${encodeURIComponent(
+    `Name: ${formData.name}
+Email: ${formData.email}
+Phone: ${formData.phone}
+
+Message:
+${formData.message}`
+  )}`;
+
+  window.location.href = mailtoLink;
+};
   return (
     <>
       <Helmet>
@@ -76,7 +95,7 @@ const Contact = () => {
                 We're Here to Support Your Journey
               </h2>
               <p className="text-gray-600 leading-relaxed">
-                Whether you're seeking healing, have questions about our services, or want to learn more 
+                Whether you're seeking healing, have questions about our services, or want to learn more
                 about Reiki, Master Nitin and our team are here to guide and support you with compassion and wisdom.
               </p>
             </motion.div>
@@ -150,12 +169,14 @@ const Contact = () => {
                   <p className="text-gray-600 text-sm mb-4">
                     {method.description}
                   </p>
-                  <Button 
-                    onClick={method.title === 'WhatsApp' ? handleWhatsApp : () => toast({
-                      title: "🚧 This feature isn't implemented yet—but don't worry! You can request it in your next prompt! 🚀",
-                      description: `${method.action} functionality would be activated.`,
-                    })}
-                    variant="outline" 
+                  <Button
+                    onClick={() => {
+                      if (method.title === 'WhatsApp') handleWhatsApp();
+                      if (method.title === 'Call Us') handleCall();
+                      if (method.title === 'Email') handleEmail();
+                      if (method.title === 'Visit Us') handleMap();
+                    }}
+                    variant="outline"
                     className="border-purple-600 text-purple-600 hover:bg-purple-50"
                   >
                     {method.action}
@@ -179,7 +200,7 @@ const Contact = () => {
                   Send Us a Message
                 </h2>
                 <p className="text-gray-600 mb-8 leading-relaxed">
-                  Fill out the form below and we'll get back to you within 24 hours. 
+                  Fill out the form below and we'll get back to you within 24 hours.
                   For urgent matters, please call or WhatsApp us directly.
                 </p>
 
@@ -265,7 +286,7 @@ const Contact = () => {
                     ></textarea>
                   </div>
 
-                  <Button 
+                  <Button
                     type="submit"
                     className="w-full bg-gradient-to-r from-purple-600 to-violet-600 hover:from-purple-700 hover:to-violet-700 text-white py-3 text-lg flex items-center justify-center space-x-2"
                   >
@@ -317,12 +338,12 @@ const Contact = () => {
                   <p className="text-gray-600 mb-4">
                     For urgent healing needs or spiritual emergencies, we offer 24/7 distant healing support.
                   </p>
-                  <Button 
+                  <Button
                     onClick={() => toast({
                       title: "🚧 This feature isn't implemented yet—but don't worry! You can request it in your next prompt! 🚀",
                       description: "Emergency healing support would be contacted.",
                     })}
-                    variant="outline" 
+                    variant="outline"
                     className="border-red-500 text-red-500 hover:bg-red-50"
                   >
                     Emergency Support
@@ -330,10 +351,10 @@ const Contact = () => {
                 </div>
 
                 <div className="floating">
-                  <img  
-                    className="w-full rounded-xl shadow-lg" 
+                  <img
+                    className="w-full rounded-xl shadow-lg"
                     alt="Peaceful Reiki Wellness healing center in Indore"
-                   src="https://images.unsplash.com/photo-1548618699-7e3e8d7780b4" />
+                    src="https://images.unsplash.com/photo-1548618699-7e3e8d7780b4" />
                 </div>
               </motion.div>
             </div>
