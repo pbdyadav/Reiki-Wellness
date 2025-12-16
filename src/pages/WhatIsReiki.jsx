@@ -95,7 +95,7 @@ const WhatIsReiki = () => {
                 <img  
                   className="w-full rounded-xl shadow-lg" 
                   alt="Dr. Mikao Usui, founder of Reiki"
-                 src="https://images.unsplash.com/photo-1684367208541-0cf1c4e1cc29" />
+                 src="/Principles.png" />
               </motion.div>
 
               <motion.div

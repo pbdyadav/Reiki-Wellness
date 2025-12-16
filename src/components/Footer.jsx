@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="space-y-4">
             <Link to="/" className="flex items-center space-x-3">
   <img
-    src="/Home_Logo.png"
+    src="/Logo.png"
     alt="Reiki Wellness Logo"
     className="h-10 w-auto"
   />
