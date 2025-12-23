@@ -239,6 +239,58 @@ Gurudev Soni envisions Reiki Tirth as a global hub, expanding online platforms f
       image: 'Guru Ji.png',
     },
     {
+  name: 'Maa Usha Basant Soni',
+  title: 'Reiki Grand Master & Spiritual Educator',
+  period: '20th Century - Present',
+  description: `
+Maa Usha Basant Soni is a renowned Reiki Grand Master and spiritual guide based in Indore, Madhya Pradesh. She is widely respected for her role in shaping holistic healing education in Central India through the Reikitirth tradition. Blending traditional Indian spiritual philosophy with the universal principles of Reiki, she has guided thousands toward self-discovery, emotional healing, and inner balance.`,
+  longDescription: `Early Life and Spiritual Awakening :-
+Maa Usha Basant Soni's spiritual journey is rooted in deep compassion, introspection, and an innate understanding of human suffering. From an early stage in life, her inclination toward healing and inner awareness shaped her path as a spiritual mentor. Over time, her role evolved from a seeker to a guide, inspiring individuals to reconnect with their inner divinity.
+
+Institutional Leadership - The Reikitirth Mission :-
+Maa Usha Soni is a founding pillar of the Reikitirth organization, headquartered in Indore. Reikitirth is not merely a healing center but a mission-driven spiritual institution dedicated to transforming lives through energy awareness, forgiveness, gratitude, and unconditional love. The organization emphasizes that true healing begins with correcting one's belief system and perception of the self.
+
+Spiritual Pedagogy and Teaching Philosophy :-
+Her teaching approach views Reiki as the “science of healing the energy body,” where the etheric body acts as the blueprint for physical and emotional health. Maa Usha Soni emphasizes self-responsibility, teaching that individuals have the power to choose healing, peace, and divine bliss through conscious awareness. The teacher-student relationship within Reikitirth is based on trust, compassion, and shared spiritual growth.
+
+The Reikitirth Reiki Manual :-
+Maa Usha Soni played a key inspirational role in the creation of the Reikitirth Reiki Manual, a structured guide for 1st 2nd and 3rd A/B Degree Reiki practitioners. The manual presents Reiki as an intelligent universal life force (Prana/Chi), capable of restoring balance across body, mind, and spirit. It serves as the foundational curriculum for the growing Reikitirth family.
+
+Collaborative Spiritual Work :-
+Working closely with her husband, Mr. Basant Soni (Reiki Grand Master), Maa Usha Soni integrates energy healing with Vedic sciences. This synergy allows seekers to address both energetic imbalances and karmic patterns, offering a comprehensive approach to holistic wellness.
+
+Community Impact and Legacy :-
+Maa Usha Basant Soni is revered not only as a healer but as a maternal spiritual presence (“Maa”) who nurtures seekers with unconditional love. Through workshops, personal guidance, and digital platforms, her teachings continue to reach individuals across India and beyond. Her legacy lies in empowering people to realize their inherent divinity and live with awareness, compassion, and inner freedom.
+
+माँ उषा बसंत सोनी इंदौर, मध्य प्रदेश में रहने वाली एक जानी-मानी रेकी ग्रैंड मास्टर और आध्यात्मिक गुरु हैं। उन्हें रेकीतीर्थ परंपरा के माध्यम से मध्य भारत में समग्र उपचार शिक्षा को आकार देने में उनकी भूमिका के लिए व्यापक रूप से सम्मानित किया जाता है। पारंपरिक भारतीय आध्यात्मिक दर्शन को रेकी के सार्वभौमिक सिद्धांतों के साथ मिलाकर, उन्होंने हजारों लोगों को आत्म-खोज, भावनात्मक उपचार और आंतरिक संतुलन की ओर मार्गदर्शन किया है।
+
+प्रारंभिक जीवन और आध्यात्मिक जागरण :-
+माँ उषा बसंत सोनी की आध्यात्मिक यात्रा गहरी करुणा, आत्मनिरीक्षण और मानवीय पीड़ा की सहज समझ में निहित है। जीवन के शुरुआती दौर से ही, उपचार और आंतरिक जागरूकता के प्रति उनके झुकाव ने एक आध्यात्मिक गुरु के रूप में उनके मार्ग को आकार दिया। समय के साथ, उनकी भूमिका एक साधक से एक मार्गदर्शक के रूप में विकसित हुई, जो व्यक्तियों को उनकी आंतरिक दिव्यता से फिर से जुड़ने के लिए प्रेरित करती है।
+
+संस्थागत नेतृत्व - रेकीतीर्थ मिशन :-
+माँ उषा सोनी इंदौर में मुख्यालय वाले रेकीतीर्थ संगठन की संस्थापक स्तंभ हैं। रेकीतीर्थ सिर्फ एक उपचार केंद्र नहीं है, बल्कि एक मिशन-संचालित आध्यात्मिक संस्था है जो ऊर्जा जागरूकता, क्षमा, कृतज्ञता और बिना शर्त प्यार के माध्यम से जीवन को बदलने के लिए समर्पित है। संगठन इस बात पर जोर देता है कि सच्चा उपचार किसी की विश्वास प्रणाली और स्वयं के बारे में धारणा को ठीक करने से शुरू होता है।
+
+आध्यात्मिक शिक्षाशास्त्र और शिक्षण दर्शन :-
+उनका शिक्षण दृष्टिकोण रेकी को "ऊर्जा शरीर के उपचार का विज्ञान" मानता है, जहाँ ईथर शरीर शारीरिक और भावनात्मक स्वास्थ्य के लिए एक खाका के रूप में कार्य करता है। माँ उषा सोनी आत्म-जिम्मेदारी पर जोर देती हैं, यह सिखाते हुए कि व्यक्तियों में सचेत जागरूकता के माध्यम से उपचार, शांति और दिव्य आनंद चुनने की शक्ति है। रेकीतीर्थ के भीतर शिक्षक-छात्र संबंध विश्वास, करुणा और साझा आध्यात्मिक विकास पर आधारित है।
+
+रेकीतीर्थ रेकी मैनुअल :-
+माँ उषा सोनी ने रेकीतीर्थ रेकी मैनुअल के निर्माण में एक महत्वपूर्ण प्रेरणादायक भूमिका निभाई, जो 1st, 2nd और 3rd A/B डिग्री रेकी चेनल के लिए एक संरचित मार्गदर्शिका है। मैनुअल रेकी को एक बुद्धिमान सार्वभौमिक जीवन शक्ति (प्राण/ची) के रूप में प्रस्तुत करता है, जो शरीर, मन और आत्मा में संतुलन बहाल करने में सक्षम है। यह बढ़ते रेकीतीर्थ परिवार के लिए मूलभूत पाठ्यक्रम के रूप में कार्य करता है।
+
+सहयोगी आध्यात्मिक कार्य :-
+अपने पति, श्री बसंत सोनी (रेकी ग्रैंड मास्टर ) के साथ मिलकर काम करते हुए, माँ उषा सोनी ऊर्जा उपचार को वैदिक विज्ञान के साथ एकीकृत करती हैं। यह तालमेल साधकों को ऊर्जा असंतुलन और कार्मिक पैटर्न दोनों को संबोधित करने की अनुमति देता है, जो समग्र कल्याण के लिए एक व्यापक दृष्टिकोण प्रदान करता है। 
+
+सामुदायिक प्रभाव और विरासत :-
+माँ उषा बसंत सोनी को न केवल एक उपचारक के रूप में, बल्कि एक मातृत्व वाली आध्यात्मिक उपस्थिति ("माँ") के रूप में पूजा जाता है, जो साधकों को बिना शर्त प्यार से पोषित करती हैं। वर्कशॉप, व्यक्तिगत मार्गदर्शन और डिजिटल प्लेटफ़ॉर्म के माध्यम से, उनकी शिक्षाएँ पूरे भारत और उससे बाहर के लोगों तक पहुँच रही हैं। उनकी विरासत लोगों को उनकी आंतरिक दिव्यता का एहसास कराने और जागरूकता, करुणा और आंतरिक स्वतंत्रता के साथ जीने के लिए सशक्त बनाने में निहित है।`,
+
+  teachings: `Reiki as Universal Life Force Energy,
+Healing through Etheric Body Balance,
+Self-Responsibility and Conscious Living,
+Forgiveness, Gratitude, and Unconditional Love,
+Spiritual Awakening through Rising Consciousness`,
+
+  image: 'Maa_Usha_Basant_Soni.png'
+},
+    {
       name: 'Master Nitin Agrawal',
       title: 'Current Reiki Practitioners',
       period: '(****-Present',
