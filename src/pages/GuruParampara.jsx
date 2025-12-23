@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { Crown, Star, Heart } from 'lucide-react';
 
 const GuruParampara = () => {
-  const [showFullDescription, setShowFullDescription] = useState(false);
+  const [expandedGuru, setExpandedGuru] = useState(null);
 
   const gurus = [
     {
@@ -162,6 +162,83 @@ const GuruParampara = () => {
       image: 'Swami Shivom Tirth Ji maharaj.png',
     },
     {
+      name: 'Gurudev Basant Kumar Soni',
+      title: 'Reiki Master & Spiritual Author',
+      period: '19.... - 20...',
+      description: `Gurudev Basant Kumar Soni was born on month.. dd.., 19..., in Indore, Madhya Pradesh, India, at time... AM, entering a world rich with spiritual undercurrents. Growing up in the vibrant heart of central India, he displayed an early affinity for introspection and holistic well-being, shaped by family values emphasizing inner peace and community service. His formative years in Indore instilled discipline and a quest for deeper meaning, laying the foundation for his lifelong spiritual journey.`,
+      longDescription: `Early Life and Roots :-
+From childhood, Gurudev Soni explored meditation and energy practices, influenced by local traditions blending ancient wisdom with modern life. These experiences sparked curiosity about healing modalities, leading him toward Reiki during adolescence. By his early twenties, he committed to mastering Usui Reiki Ryoho, recognizing its potential to harmonize body, mind, and spirit.
+
+Spiritual Awakening and Reiki Initiation
+Gurudev's Reiki path began with Level 1 attunement, where universal life force energy first flowed through him, revealing profound insights into human suffering and healing. Drawn to Mikao Usui's original teachings, he pursued rigorous training under certified masters, achieving Level 2 and Master Practitioner status swiftly. His dedication intensified during personal challenges, using self-Reiki to overcome stress and emotional hurdles, transforming adversity into empowerment.
+
+A pivotal moment came during his Master Teacher attunement, unlocking abilities for distance healing and teaching others. Gurudev Soni integrated chakra balancing and aura cleansing, addressing root causes of ailments like anxiety and chronic pain. His practice evolved into a beacon for seekers, emphasizing ethical energy work aligned with spiritual growth.
+
+Founding Reiki Tirth Healing Centre
+In Indore's serene Indra Puri Colony, Gurudev established Reiki Tirth Healing Centre as a sanctuary for holistic transformation. This venture reflects his vision: accessible Usui Reiki for all levels, from beginners to advanced practitioners. Sessions blend hands-on healing with meditation, fostering deep relaxation and vitality.
+
+Under his guidance, Reiki Tirth expanded offerings—personalized attunements, group workshops, and international distance sessions—serving clients worldwide. Gurudev's centre stands out for authenticity, rooted in Usui traditions while adapting to modern needs like remote healing amid global shifts.
+
+Healing Philosophy and Techniques
+Gurudev Soni views Reiki as channeled universal energy dissolving blockages, restoring harmony. Central to his approach: chakra alignment targets root, sacral, solar plexus, heart, throat, third eye, and crown centers, alleviating physical pain, emotional trauma, and spiritual disconnection. Aura cleansing clears etheric imprints, enhancing intuition and immunity.
+
+He employs symbols like Cho Ku Rei for power amplification and Sei He Ki for emotional release, customizing sessions. Complementary practices—guided visualizations, crystal therapy, and sound healing—amplify results. Gurudev stresses self-healing empowerment, teaching clients lifelong tools.
+
+Transformative Impact on Clients
+Countless testimonials highlight Gurudev's efficacy: clients report stress reduction, improved sleep, pain relief from migraines and backaches, and emotional breakthroughs. One seeker overcame severe anxiety through regular sessions, regaining life balance. Another found chronic fatigue lifted via chakra work, boosting daily energy.
+
+His international reach aids diaspora communities, with distance Reiki bridging continents. Gurudev's compassionate demeanor fosters trust, turning one-time visitors into lifelong practitioners. Success stories underscore Reiki Tirth's role in spiritual evolution.
+
+Teachings and Attunement Legacy
+As a Master Teacher, Gurudev Soni conducts attunements worldwide, igniting Reiki in hundreds. His curriculum covers ethics, symbols, and practical application, blending theory with hands-on practice. Workshops emphasize lineage purity from Usui, ensuring authentic transmission.
+
+He authored guides on home Reiki practice, democratizing healing. Gurudev mentors emerging masters, perpetuating the tradition. His teachings integrate Sanskrit mantras and meditation, resonating with India's spiritual heritage.
+
+Integration with Broader Ventures
+Beyond Reiki, Gurudev balances healing with entrepreneurship, including financial services via Agrawal Financial & Investment Services. This synergy reflects his belief in holistic prosperity—financial stability fueling spiritual service. His RC gaming interests highlight multifaceted wellness, promoting mindful recreation.
+
+Vision for Global Healing
+Gurudev Soni envisions Reiki Tirth as a global hub, expanding online platforms for universal access. He advocates Reiki in healthcare, partnering for stress management programs. Future plans include retreats blending Reiki with yoga, targeting youth for preventive wellness.
+      
+      शुरुआती ज़िंदगी और जड़ें :-
+गुरुदेव बसंत कुमार सोनी का जन्म DD.. mony.. 19... को इंदौर, मध्य प्रदेश, भारत में सुबह Time... बजे हुआ था। वे आध्यात्मिक सोच से भरी दुनिया में आए। मध्य भारत के जीवंत दिल में पले-बढ़े, उन्होंने शुरू से ही आत्मनिरीक्षण और पूरी सेहत के लिए लगाव दिखाया, जो पारिवारिक मूल्यों से बना था, जिसमें मन की शांति और समाज सेवा पर ज़ोर दिया जाता था। इंदौर में उनके शुरुआती सालों ने उनमें अनुशासन और गहरे मतलब की खोज पैदा की, जिसने उनकी ज़िंदगी भर की आध्यात्मिक यात्रा की नींव रखी।
+
+बचपन से ही, गुरुदेव सोनी ने स्थानीय परंपराओं से प्रभावित होकर मेडिटेशन और एनर्जी प्रैक्टिस की खोज की, जिसमें पुरानी समझ को मॉडर्न ज़िंदगी के साथ मिलाया गया था। इन अनुभवों ने इलाज के तरीकों के बारे में उनकी जिज्ञासा जगाई, जिससे वे टीनएज में रेकी की ओर बढ़े। बीस साल की उम्र तक, उन्होंने उसुई रेकी रयोहो में महारत हासिल करने का पक्का इरादा कर लिया, और शरीर, मन और आत्मा में तालमेल बिठाने की इसकी क्षमता को पहचाना।
+
+आध्यात्मिक जागृति और रेकी की शुरुआत
+गुरुदेव का रेकी का रास्ता लेवल 1 अट्यूनमेंट से शुरू हुआ, जहाँ यूनिवर्सल लाइफ़ फ़ोर्स एनर्जी सबसे पहले उनके ज़रिए बही, जिससे इंसानी दुख और हीलिंग के बारे में गहरी समझ मिली। मिकाओ उसुई की ओरिजिनल टीचिंग्स से आकर्षित होकर, उन्होंने सर्टिफाइड मास्टर्स से कड़ी ट्रेनिंग ली, और तेज़ी से लेवल 2 और मास्टर प्रैक्टिशनर का स्टेटस हासिल किया। पर्सनल चैलेंज के दौरान उनका डेडिकेशन और बढ़ गया, उन्होंने स्ट्रेस और इमोशनल रुकावटों को दूर करने के लिए सेल्फ़-रेकी का इस्तेमाल किया, और मुश्किलों को एम्पावरमेंट में बदल दिया।
+
+एक अहम पल उनके मास्टर टीचर अट्यूनमेंट के दौरान आया, जब उन्होंने डिस्टेंस हीलिंग और दूसरों को सिखाने की काबिलियत को अनलॉक किया। गुरुदेव सोनी ने चक्र बैलेंसिंग और ऑरा क्लींजिंग को इंटीग्रेट किया, जिससे एंग्जायटी और क्रोनिक पेन जैसी बीमारियों की असली वजहों का पता चला। उनकी प्रैक्टिस साधकों के लिए एक रोशनी बन गई, जिसमें आध्यात्मिक विकास के साथ एथिकल एनर्जी वर्क पर ज़ोर दिया गया।
+
+रेकी तीर्थ हीलिंग सेंटर की स्थापना
+इंदौर की शांत इंद्र पुरी कॉलोनी में, गुरुदेव ने पूरे बदलाव के लिए एक जगह के तौर पर रेकी तीर्थ हीलिंग सेंटर की स्थापना की। यह वेंचर उनके विज़न को दिखाता है: शुरुआती से लेकर एडवांस्ड प्रैक्टिशनर तक, सभी लेवल के लिए आसान उसुई रेकी। सेशन में हैंड्स-ऑन हीलिंग को मेडिटेशन के साथ मिलाया जाता है, जिससे गहरा आराम और एनर्जी मिलती है।
+
+उनके गाइडेंस में, रेकी तीर्थ ने अपनी पेशकशों को बढ़ाया—पर्सनलाइज़्ड अट्यूनमेंट, ग्रुप वर्कशॉप और इंटरनेशनल डिस्टेंस सेशन—जो दुनिया भर के क्लाइंट्स को सर्विस देते हैं। गुरुदेव का सेंटर अपनी असली पहचान के लिए जाना जाता है, जो उसुई परंपराओं में निहित है और ग्लोबल बदलावों के बीच रिमोट हीलिंग जैसी मॉडर्न ज़रूरतों के हिसाब से ढलता है।
+
+हीलिंग फिलॉसफी और टेक्नीक
+गुरुदेव सोनी रेकी को चैनल की गई यूनिवर्सल एनर्जी के तौर पर देखते हैं जो रुकावटों को खत्म करती है, तालमेल बिठाती है। उनके अप्रोच का सेंटर: चक्र अलाइनमेंट रूट, सैक्रल, सोलर प्लेक्सस, हार्ट, थ्रोट, थर्ड आई और क्राउन सेंटर्स को टारगेट करता है, जिससे फिजिकल दर्द, इमोशनल ट्रॉमा और स्पिरिचुअल डिस्कनेक्शन कम होता है। ऑरा क्लींजिंग ईथरिक इंप्रिंट्स को साफ करती है, जिससे इंट्यूशन और इम्यूनिटी बढ़ती है।
+
+वे पावर बढ़ाने के लिए चो कु रेई और इमोशनल रिलीज़ के लिए सेई हे की जैसे सिंबल्स का इस्तेमाल करते हैं, जिससे सेशन कस्टमाइज़ होते हैं। कॉम्प्लिमेंट्री प्रैक्टिस—गाइडेड विज़ुअलाइज़ेशन, क्रिस्टल थेरेपी, और साउंड हीलिंग—नतीजों को बढ़ाते हैं। गुरुदेव सेल्फ-हीलिंग एम्पावरमेंट पर ज़ोर देते हैं, क्लाइंट्स को लाइफलॉन्ग टूल्स सिखाते हैं।
+
+क्लाइंट्स पर ट्रांसफॉर्मेटिव असर
+अनगिनत टेस्टिमोनियल्स गुरुदेव के असर को दिखाते हैं: क्लाइंट्स स्ट्रेस में कमी, बेहतर नींद, माइग्रेन और पीठ दर्द से राहत, और इमोशनल ब्रेकथ्रू की रिपोर्ट करते हैं। एक साधक ने रेगुलर सेशन के ज़रिए गंभीर एंग्जायटी पर काबू पाया, और लाइफ बैलेंस वापस पाया। दूसरे ने चक्र वर्क के ज़रिए क्रोनिक थकान को दूर किया, जिससे डेली एनर्जी बढ़ी।
+
+उनकी इंटरनेशनल पहुंच डायस्पोरा कम्युनिटीज़ की मदद करती है, डिस्टेंस रेकी कॉन्टिनेंट्स को जोड़ती है। गुरुदेव का दयालु व्यवहार भरोसा बढ़ाता है, जो एक बार आने वाले विज़िटर्स को लाइफलॉन्ग प्रैक्टिशनर बना देता है। सक्सेस स्टोरीज़ स्पिरिचुअल इवोल्यूशन में रेकी तीर्थ की भूमिका को दिखाती हैं।
+
+टीचिंग्स और अट्यूनमेंट लिगेसी
+एक मास्टर टीचर के तौर पर, गुरुदेव सोनी दुनिया भर में अट्यूनमेंट करते हैं, सैकड़ों लोगों को रेकी सिखाते हैं। उनके करिकुलम में एथिक्स, सिंबल्स, और प्रैक्टिकल एप्लीकेशन शामिल हैं, जिसमें थ्योरी को हैंड्स-ऑन प्रैक्टिस के साथ मिलाया गया है। वर्कशॉप में उसुई से वंश की शुद्धता पर ज़ोर दिया जाता है, जिससे असली ट्रांसमिशन पक्का होता है।
+
+उन्होंने घर पर रेकी प्रैक्टिस पर गाइड लिखीं, जिससे हीलिंग को सब जगह फैलाया जा सके। गुरुदेव नए मास्टर्स को गाइड करते हैं, और इस परंपरा को बनाए रखते हैं। उनकी शिक्षाओं में संस्कृत मंत्र और मेडिटेशन शामिल हैं, जो भारत की आध्यात्मिक विरासत से मेल खाते हैं।
+
+बड़े वेंचर्स के साथ इंटीग्रेशन
+रेकी के अलावा, गुरुदेव हीलिंग और एंटरप्रेन्योरशिप के बीच बैलेंस बनाते हैं, जिसमें अग्रवाल फाइनेंशियल एंड इन्वेस्टमेंट सर्विसेज़ के ज़रिए फाइनेंशियल सर्विसेज़ शामिल हैं। यह तालमेल पूरी खुशहाली में उनके विश्वास को दिखाता है—फाइनेंशियल स्थिरता आध्यात्मिक सेवा को बढ़ावा देती है। उनकी RC गेमिंग की रुचियाँ कई तरह की वेलनेस को हाईलाइट करती हैं, जो ध्यान लगाकर मनोरंजन को बढ़ावा देती हैं।
+
+ग्लोबल हीलिंग के लिए विज़न
+गुरुदेव सोनी रेकी तीर्थ को एक ग्लोबल हब के तौर पर देखते हैं, जो यूनिवर्सल एक्सेस के लिए ऑनलाइन प्लेटफॉर्म को बढ़ाएगा। वह हेल्थकेयर में रेकी को सपोर्ट करते हैं, स्ट्रेस मैनेजमेंट प्रोग्राम के लिए पार्टनरशिप करते हैं। भविष्य के प्लान में रेकी को योग के साथ मिलाकर रिट्रीट शामिल हैं, जो युवाओं को प्रिवेंटिव वेलनेस के लिए टारगेट करते हैं।`,
+      teachings: 'The Five Reiki Principles, Traditional hand positions, Spiritual development through service',
+      image: 'Guru Ji.png',
+    },
+    {
       name: 'Master Nitin Agrawal',
       title: 'Current Reiki Practitioners',
       period: '(****-Present',
@@ -232,7 +309,7 @@ const GuruParampara = () => {
                 The Sacred Lineage
                 <div className="flex justify-center mb-10">
                   <img
-                    src="/Guru_Parampara.png"
+                    src="/Guru_Parampara1.png"
                     alt="Guru Parampara"
                     className="w-50 h-auto rounded-xl shadow-2xl"
                   />
@@ -285,20 +362,20 @@ const GuruParampara = () => {
                         <p className="text-gray-500">{guru.period}</p>
                       </div>
 
+                      {/* Logic: Check if THIS specific guru is the expanded one */}
                       <p className="text-gray-600 leading-relaxed mb-4 whitespace-pre-line">
-                        {guru.name === 'Dr. Mikao Usui' && !showFullDescription
-                          ? guru.description
-                          : guru.name === 'Dr. Mikao Usui'
-                            ? `${guru.description}\n\n${guru.longDescription}`
-                            : guru.description}
+                        {expandedGuru === guru.name && guru.longDescription
+                          ? `${guru.description}\n\n${guru.longDescription}`
+                          : guru.description}
                       </p>
 
-                      {guru.name === 'Dr. Mikao Usui' && (
+                      {/* Toggle Button: Update the specific guru's name in state */}
+                      {guru.longDescription && (
                         <button
-                          onClick={() => setShowFullDescription(!showFullDescription)}
+                          onClick={() => setExpandedGuru(expandedGuru === guru.name ? null : guru.name)}
                           className="text-sm text-purple-700 underline mb-4"
                         >
-                          {showFullDescription ? 'Read Less' : 'Read More'}
+                          {expandedGuru === guru.name ? 'Read Less' : 'Read More'}
                         </button>
                       )}
 
